@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./enigma.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<script src="./enigma.js"></script>
+</head>
+<body>
+	<div class="reflect-side">
+		<div class="gear-img"><img src="./reflect.jpg"></div>
+	</div>
+	<div class="gear-side">
+		<div id="roter1" class="gear-status"></div>
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(1,0)">◀</button></div>
+		<div class="gear-img"><img src="./gear_side.png"></div>	
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(1,1)">▶</button></div>
+	</div>
+	<div class="gear-side">
+		<div id="roter2" class="gear-status"></div>
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(2,0)">◀</button></div>
+		<div class="gear-img"><img src="./gear_side.png"></div>	
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(2,1)">▶</button></div>
+	</div>
+	<div class="gear-side">
+		<div id="roter3" class="gear-status"></div>
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(3,0)">◀</button></div>
+		<div class="gear-img"><img src="./gear_side.png"></div>	
+		<div class="btn-padding"><button class="btn-gear" onclick="rotateRoter(3,1)">▶</button></div>
+	</div>
+	<div id="selected-plug">
+	</div>
+	<form class="message">
+		<input type="text" id="resultBoard">
+	</form>
+	<div id="plug">
+		<div class="button" onclick="pushButton(this)">A</div>
+  		<div class="button" onclick="pushButton(this)">B</div>
+  		<div class="button" onclick="pushButton(this)">C</div>
+  		<div class="button" onclick="pushButton(this)">D</div>
+  		<div class="button" onclick="pushButton(this)">E</div>
+  		<div class="button" onclick="pushButton(this)">F</div>
+  		<div class="button" onclick="pushButton(this)">G</div>
+  		<div class="button" onclick="pushButton(this)">H</div>
+  		<div class="button" onclick="pushButton(this)">I</div>
+  		<div class="button" onclick="pushButton(this)">J</div>
+  		<div class="button" onclick="pushButton(this)">K</div>
+  		<div class="button" onclick="pushButton(this)">L</div>
+  		<div class="button" onclick="pushButton(this)">M</div>
+  		<div class="button" onclick="pushButton(this)">N</div>
+  		<div class="button" onclick="pushButton(this)">O</div>
+  		<div class="button" onclick="pushButton(this)">P</div>
+  		<div class="button" onclick="pushButton(this)">Q</div>
+  		<div class="button" onclick="pushButton(this)">R</div>
+  		<div class="button" onclick="pushButton(this)">S</div>
+  		<div class="button" onclick="pushButton(this)">T</div>
+  		<div class="button" onclick="pushButton(this)">U</div>
+  		<div class="button" onclick="pushButton(this)">V</div>
+  		<div class="button" onclick="pushButton(this)">W</div>
+  		<div class="button" onclick="pushButton(this)">X</div>
+  		<div class="button" onclick="pushButton(this)">Y</div>
+  		<div class="button" onclick="pushButton(this)">Z</div>
+  		<div class="button" onclick="pushButton(this)"> </div>
+  	</div>
+	
+	<script>
+		//select three Roter and One Reflector
+		selectRoter(1,3,2,1);
+
+		//Initailize Ring Setting
+		initRotState(0,0,5);
+
+		//Add plug Setting; Notice that plug cannot be redundancy.
+		{
+			addPlug('a','c');
+			addPlug('w','z');
+			addPlug('n','f');
+		}
+
+		showRotState();
+	</script>
+</body>
+</html>
+

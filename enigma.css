@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+body{
+	background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/21a75583eebde777577803534ad4d671.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.gear-status{
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+	width:80%;
+	height:10%;
+	color:black;	
+}
+.reflect-side{
+	display:inline-block;
+	margin:20px 10px;
+	margin-left: 100px;
+	width:10%;
+	height:200px;
+	overflow: hidden;
+}
+.reflect-side:after{
+	display: block;
+}
+.gear-side{
+	display:inline-block;
+	margin:20px 10px;
+	width:20%;
+	height:250px;
+}
+.gear-side:after{
+	display: block;
+}
+.gear-img{
+	display:inline-block;
+	width:50%;
+	height:250px;
+}	
+.gear-img img{
+	width:100%;
+	height:250px;	
+}
+.btn-padding{
+	display: inline-block;
+	width:15%;
+	height:250px;
+	overflow: hidden;
+}
+.btn-gear{
+	display:inline;
+	width:100%;
+	height:30px;
+	margin-top: 80px;
+	text-align: center;
+	background-color:#795958;
+	color:white;
+}
+.btn-plug{
+	background-color: grey;
+	color:white;
+	width:50px;
+	height:50px;
+	border-radius:30px;
+	margin:10px 20px;
+}
+
+
+/*metal button*/
+
+#plug{
+	margin:0 auto;
+	width:80%;
+}
+.button { margin: 20px }
+
+.button {
+    /*transition*/
+    -webkit-transition: all .03s ease;
+    -moz-transition: all .03s ease;
+    -o-transition: all .03s ease;
+    transition: all .03s ease;
+	cursor: pointer;
+}
+.button {
+    display: inline-block;
+    font-size: 30px;
+    background-color: #434343;
+    background-image: -webkit-linear-gradient(100% 100% 90deg, #515151, #7A7A7A);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #515151, #7A7A7A);
+    background-image: -o-linear-gradient(100% 100% 90deg, #515151, #7A7A7A);
+    background-image: -ms-linear-gradient(100% 100% 90deg, #515151, #7A7A7A);
+    background-image: linear-gradient(100% 100% 90deg, #515151, #7A7A7A);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7A7A7A), to(#515151));
+    border: none;
+    border-top: 3px solid #c2c2c2;
+    width:50px; 
+    /*border-radius*/
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    /*box-shadow*/
+    -webkit-box-shadow: inset 0 1px 2px rgba(255,255	,255,0.2), 0 1px 0 #2D2D2D, 0 2px 0 #2D2D2D, 0 3px 0 #2C2C2C, 0 4px 0 #2A2A2A, 0 0 0 6px black, 0 4px 0 6px black, 0 0 0 7px #222, 0 4px 0 7px #222;
+    -moz-box-shadow: inset 0 1px 2px rgba(255,255,255,0.2), 0 1px 0 #2D2D2D, 0 2px 0 #2D2D2D, 0 3px 0 #2C2C2C, 0 4px 0 #2A2A2A, 0 0 0 6px black, 0 4px 0 6px black, 0 0 0 7px #222, 0 4px 0 7px #222;
+    box-shadow: inset 0 1px 2px rgba(255,255,255,0.2), 0 1px 0 #2D2D2D, 0 2px 0 #2D2D2D, 0 3px 0 #2C2C2C, 0 4px 0 #2A2A2A, 0 0 0 6px black, 0 4px 0 6px black, 0 0 0 7px #222, 0 4px 0 7px #222;
+    padding: 15px ;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    margin:20px 15px;
+    text-decoration: none;
+    color: #242424;
+    text-align: center;
+    background-image: -webkit-radial-gradient(  50%   0%,  8% 50%, hsla(0,0%,100%,.5) 0%, hsla(0,0%,100%,0) 100%),                        -webkit-radial-gradient(  50% 100%, 12% 50%, hsla(0,0%,100%,.6) 0%, hsla(0,0%,100%,0) 100%),                        -webkit-radial-gradient(   0%  50%, 50%  7%, hsla(0,0%,100%,.5) 0%, hsla(0,0%,100%,0) 100%),                        -webkit-radial-gradient( 100%  50%, 50%  5%, hsla(0,0%,100%,.5) 0%, hsla(0,0%,100%,0) 100%),                                                -webkit-repeating-radial-gradient(    50% 50%, 100% 100%, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   3%, hsla(0,0%,  0%,.1) 3.5%),                        -webkit-repeating-radial-gradient(    50% 50%, 100% 100%, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%,.1) 7.5%),                        -webkit-repeating-radial-gradient(    50% 50%, 100% 100%, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.2) 2.2%),                                                -webkit-radial-gradient(    50% 50%, 200% 50%, hsla(0,0%,90%,1) 5%, hsla(0,0%,85%,1) 30%, hsla(0,0%,60%,1) 100%);
+}
+.button:before,
+.button:after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    /*border-radius*/
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    border-radius: inherit;
+    /* fake conical gradients */
+    background-image: -webkit-radial-gradient(  50%   0%, 10% 50%, hsla(0,0%,0%,.1) 0%, hsla(0,0%,0%,0) 100%),                        -webkit-radial-gradient(  50% 100%, 10% 50%, hsla(0,0%,0%,.1) 0%, hsla(0,0%,0%,0) 100%),                        -webkit-radial-gradient(   0%  50%, 50% 10%, hsla(0,0%,0%,.1) 0%, hsla(0,0%,0%,0) 100%),                        -webkit-radial-gradient( 100%  50%, 50% 06%, hsla(0,0%,0%,.1) 0%, hsla(0,0%,0%,0) 100%);
+
+}
+.button:before {
+    /*transform*/
+    -webkit-transform: rotate( 65deg);
+    -moz-transform: rotate( 65deg);
+    -ms-transform: rotate( 65deg);
+    -o-transform: rotate( 65deg);
+    transform: rotate( 65deg);
+}
+.button:after {
+    /*transform*/
+    -webkit-transform: rotate(-65deg);
+    -moz-transform: rotate(-65deg);
+    -ms-transform: rotate(-65deg);
+    -o-transform: rotate(-65deg);
+    transform: rotate(-65deg);
+}
+.button:active {
+    border-top: 0px solid #dde1e7;
+    /*transform*/
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+    transform: translateY(4px);
+}
+
+
+
+/****************/
+/*input text form*/
+.message input[type=text] {
+    /* Size and position */
+    width: 40%;
+    padding: 8px 4px 8px 10px;
+    margin: 15px auto;
+    display: block;
+
+    /* Styles */
+    border: 1px solid #4e3043; /* Fallback */
+    border: 1px solid rgba(78,48,67, 0.8);
+    background: rgba(0,0,0,0.15);
+    border-radius: 2px;
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.message input[type=text]:hover{
+    border-color: #333;
+}
+
+.message input[type=text]:focus,
+.form-4 input[type=submit]:focus {
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1),
+        0 0 0 3px rgba(255,255,255,0.15);
+    outline: none;
+}
+
+/* Fallback */
+.no-boxshadow .message input[type=text]:focus{
+    outline: 1px solid white;
+}
+
+
+
+
+/*****************/
+/* settin button */
+
+.metal {
+  position: relative;
+  margin: 0px auto;
+  outline: none;
+  float:left;
+  font: bold 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  color: hsla(0,0%,20%,1);
+  text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
+  
+  background-color: hsl(0,0%,90%);
+  box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px, /* border */
+    inset hsla(0,0%,15%, .8) 0 -1px 5px 4px, /* soft SD */
+    inset hsla(0,0%,0%, .25) 0 -1px 0px 7px, /* bottom SD */
+    inset hsla(0,0%,100%,.7) 0  2px 1px 7px, /* top HL */
+    
+    hsla(0,0%, 0%,.15) 0 -5px 6px 4px, /* outer SD */
+    hsla(0,0%,100%,.5) 0  5px 6px 4px; /* outer HL */ 
+  
+  transition: color .2s;
+}
+
+
+.metal.linear {
+  width: 100%;
+  font-size: 4em;
+  height: 80px;
+  border-radius: .5em;
+  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    
+    linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+    hsl(0,0%,90%) 47%, 
+    hsl(0,0%,78%) 53%,
+    hsl(0,0%,70%)100%);
+}
+
+.setting-button{
+	display: inline-block;
+	width: 20%;
+	border:1px solid red;
+	margin:5px;
+	height:100px;
+	padding-top:70px;
+}
+
+#selected-plug{
+	margin:0 auto;
+	width:70%;
+	height:200px;
+	border: 1px solid black;
+}
+
+#selected-plug span{
+	margin: 20px 25px;
+	padding: 15px 10px 10px 20px;
+	float:left;
+	font-size: 30px;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+			    inset 0px -5px 0px 0px rgba(0,0,0,0.3),
+				inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: url(http://subtlepatterns.com/patterns/wood_pattern.png);
+	color:#663300;
+}
+/*********************/
